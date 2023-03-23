@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="images/download.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="styles/main.css">
+    
+    
+    <title>Drake Image Gallery</title>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="OVO" title="Octobers Very Own logo">
+        <h2>Drake Image Gallery</h2>
+    </header>
+    <main>
+        <!-- Photo Grid -->
+<div class="row"> 
+    <div class="column">
+        <img src="images/download-1.jpg" alt="">
+        <img src="images/download-2.jpg" alt="">
+        <img src="images/download-3.jpg" alt="">
+        <img src="images/download.jpg" alt="">
+        <img src="images/images-1.jpg" alt="">
+    </div>
+    
+    <div class="column">
+        <img src="images/images-10.jpg" alt="">
+        <img src="images/images-11.jpg" alt="">
+        <img src="images/images-12.jpg" alt="">
+        <img src="images/images-13.jpg" alt="">
+        <img src="images/images-14.jpg" alt="">
+    </div> 
+     
+    <div class="column">
+        <img src="images/images-15.jpg" alt="">
+        <img src="images/images-16.jpg" alt="">
+        <img src="images/images-2.jpg" alt="">
+        <img src="images/images-3.jpg" alt="">
+        <img src="images/images-4.jpg" alt="">
+    </div>
+    
+    <div class="column">
+        <img src="images/images-5.jpg" alt="">
+        <img src="images/images-6.jpg" alt="">
+        <img src="images/images-7.jpg" alt="">
+        <img src="images/images-8.jpg" alt="">
+        <img src="images/images-9.jpg" alt="">
+    </div>
+  </div>
+    </main>
+    <footer>
+        <p>&copy; <span id="copyright"></span> Teo Berbic</p>
+    </footer>
+    <!-- Javascript - Get Current Year for the Footer -->
+    <script>
+        window.onload = function() {
+            var d = new Date();
+            document.getElementById("copyright").innerHTML = d.getFullYear();
+        }
+    </script>
+</body>
+</html>
